@@ -11,39 +11,85 @@
     </head>
 
     <body>
+
+        <!--header-->
+
         <header class="header">
 
             <img class="headerImg" src="images/logo/Reservia@3x.png" alt="logo" />
 
-            <div id="search">
+            <nav class="he">
 
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <label for="site-search">En plein centre ville ou en pleine nature</label>
-                <input type="search" id="search_bar" name="q" placeholder="Marseille, France" />
-                <button>Rechercher</button>
-
-            </div>
-
-            <nav>
-
-                <ul>
-                    <li><a href="#"><em>Hébergements</em></a></li>
-                    <li><a href="#">Activités</a></li>
-                    <li><a href="#"><em>S'inscrire</em></a></li>
-                </ul>
+                    <a class="headerHosting" href="#">Hébergements</a>
+                    <a class="headerActivity" href="#">Activités</a>
+                    <a class="headeSingUp" href="#">S'inscrire</a>
 
             </nav>
 
-            <div id="filtres">
-
-            </div>
-
-            <p>  Plus de 500 logements sont disponibles dans cette ville</p>
-
         </header>
+
+        <!--/header-->
+
+        <!--main-->
 
         <main>
 
+            <!--search-->
+
+            <section id="search">
+                
+                  <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                  <p>En plein centre de ville ou en pleine nature</p>
+
+                <form method="GET">
+
+                  <span class="mapMarkerIcon">
+
+                    <i class="fas fa-map-marker-alt searchFormWrapiconIcon"></i>
+
+                  </span>
+
+                  <input  type="search" placeholder="Marseille, France" size="1">
+
+                  <button >
+
+                    <p>Rechercher</p>
+
+                    <i class="searchFormSubmitinputIcon fas fa-search"></i>
+
+                  </button>
+
+                </form>
+
+            </section>
+
+            <!--/search-->
+
+            <!--filter-->
+
+            <section id="filter">
+
+                <h1>Filtres</h1>
+
+                <div class="Filter">
+
+                    <div id="FilterIconMoney">
+
+                        <i class="fas fa-money-bill-wave searchFiltersFilterWrapiconIcon"></i>
+                        <p>Économique</p>
+
+                    </div>
+
+                    <div id="FilterIconChild">
+
+                        <i class="fas fa-child searchFiltersFilterWrapiconIcon"></i>
+                        <p>Familial</p>
+
+                    </div>
+
+                </div>
+
+            </section>
             <article id="home">
 
                 <h2>Hébergements à Marseille</h2>
