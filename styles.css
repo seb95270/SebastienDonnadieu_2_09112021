@@ -73,6 +73,177 @@ table {
 
 /* definition regle css standard (pour pc) */
 
-.fa-circle{
-   color: aqua;
-}
+   /* efinition police de caractère body */ 
+
+   body{
+   font-family: "Raleway", sans-serif;
+   margin: 0;
+   }
+
+   /* definitionstyle des liens */
+
+   a{
+      color: inherit;
+      text-decoration: none;
+   }
+
+   header{
+      display: flex;
+      align-items: center;
+      max-width: 1440px;
+      margin: auto;
+   }
+
+   .headerImg{
+      padding: 2em;
+      height: 2.5em;
+   }
+
+   Nav{
+      display: flex;
+      align-items: center;
+      padding: 2em;
+      font-weight: 500;
+      text-align: center;
+      border-top: 3px transparent solid;
+      border-bottom: 3px transparent solid;
+   }
+
+   nav a{
+      display: flex;
+      margin: 3em;
+   }
+
+   nav a:active{
+      color: #0065fc;
+   }
+
+   nav a:hover{
+      color: #0065fc;
+   }
+
+   .SignUp{
+      color: #0065fc;
+   }
+
+   main{
+      max-width: 1440px;
+      margin: auto;
+      padding: 2em;
+      box-sizing: border-box;
+   }
+
+   #search h1{
+      margin-bottom: 0.5em;
+   }
+
+   .searchForm{
+      display: inline-flex;
+      max-width: 100%;
+      overflow: auto;
+   }
+
+   .fa-map-marker-alt{
+      background-color: #f2f2f2;
+      padding: 1em 1.25em;
+      border-radius: 1em 0 0 1em;
+   }
+
+   input{
+      border-top: #f2f2f2 1px solid;
+      border-bottom: #f2f2f2 1px solid;
+      padding: 0 1.5em;
+      width: 140em;
+      font-size: 1em;
+      font-family: "Raleway", sans-serif;
+   }
+
+   button{
+      background-color: #0065fc;
+      color: #f2f2f2;
+      border: none;
+      border-radius: 0 1em 1em 0;
+      padding: 0 1.5em;
+      font-size: 1em;
+   }
+
+   #filter{
+      display: flex;
+      align-items: center;
+      margin: 32px 0px 41px 0px;
+   }
+
+   .Filter{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      margin-left: 25px;
+      flex-wrap: wrap;
+   }
+
+   #FilterIconMoney{
+      display: flex;
+      align-items: center;
+      border: 2px solid #d9d9d9;
+      border-radius: 2em;
+      font-weight: bold;
+      margin: 2em 0 2em 0;
+      display: flex;
+   }
+
+   #FilterIconMoney:hover{
+      color: #f3f8ff;
+   }
+
+   #FilterIconChild{
+      display: flex;
+      align-items: center;
+      border: 2px solid #d9d9d9;
+      border-radius: 2em;
+      font-weight: bold;
+      margin: 2em 0 2em 0;
+   }
+
+
+
+   #FilterIconHeart{
+      display: flex;
+      align-items: center;
+      border: 2px solid #d9d9d9;
+      border-radius: 2em;
+      font-weight: bold;
+      margin: 2em 0 2em 0;
+   }
+
+
+   #FilterIconDog{
+      display: flex;
+      align-items: center;
+      border: 2px solid #d9d9d9;
+      border-radius: 2em;
+      font-weight: bold;
+      margin: 2em 0 2em 0;
+   }
+
+
+   /* reglage couleur icons filtres */
+
+   .fa-circle{
+      color: #deebff;
+   }
+
+   .fa-money-bill-wave{
+      color: #0065fc;
+   }
+
+   .fa-child{
+      color: #0065fc;
+   }
+
+   .fa-heart{
+      color: #0065fc;
+   }
+
+   .fa-dog{
+      color: #0065fc;
+   }
