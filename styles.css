@@ -143,6 +143,8 @@ table {
       box-sizing: border-box;
    }
 
+   /* debut formulaire */ 
+
    #search h1{
       margin-bottom: 0.5em;
    }
@@ -177,9 +179,17 @@ table {
       font-size: 1em;
    }
 
+   /*fin formulaire type search */
+
+   /* section filtres */
+
    .filtres{
       margin: 50px;
       font-family: "Raleway", sans-serif;
+}
+
+.grey{
+   color: #dcdcdc;
 }
 
 .blue{
@@ -188,26 +198,68 @@ table {
 
 .ligthblue{
       color: #DEEBFF;
-  }
-  
-  .icone{
-  
+   }
+
+.icone{
       font-size: 25px;
       margin-left: -8px;
       margin-top: -2px;
       margin-bottom: -2px;
-  }
-  
-  .filtre{
+   }
+
+.filtre{
       display: inline-block;
       border: 2px solid #dcdcdc;
       border-radius: 40px;
       font-weight: bold;
       margin-right: 20px;
-  }
-  
-  .filtre-content{
+}
+
+.filtre-content{
       font-size: 19px;
       margin-right: 20px;
       vertical-align: middle;
-  }
+}
+
+.SearchResultIcon{
+   display: flex;
+   align-items: center;
+   font-size: 1em;
+   margin-top: 40px;
+   margin-left: -110px;
+}
+
+.filtres h1{
+   margin-left: -50px;
+}
+
+/*fin section filtres */
+
+/* footer */
+
+footer{
+   display: flex;
+   font-family: "Raleway";
+   background-color: #dcdcdc;
+}
+
+footer a {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 1em;
+margin: 20px;
+}
+
+.footer{
+margin-top: 50px;
+margin-left: 50px;
+margin-right: 150px;
+margin-bottom: 100px;
+}
+
+.footer h2 {
+   text-align: center;
+}
+
+/* fin footer */
