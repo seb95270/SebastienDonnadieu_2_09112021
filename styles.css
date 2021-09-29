@@ -283,13 +283,14 @@ margin-left: 1px;
    border: 1px solid transparent;
    border-radius: 20px;
    background-color: white;
-   width: 300px;
-   height: 300px;
+   width: 200px;
+   height: 150px;
    margin-top: 50px;
    }
 
 #hosting figcaption{
    text-align: baseline;
+   font-size: 0.5em;
    margin-left: 10px;
    margin-top: 10px;
    margin-bottom: 3px;
@@ -301,15 +302,15 @@ margin-left: 1px;
    vertical-align: top;
    border-radius: 20px 20px 0 0;
    width: 98%;
-   height: 10%;
-   margin-left: 3px;
-   margin-top: 4px;
+   height: 90px;
+   margin-left: 1px;
+   margin-top: 1px;
 }
 
 figcaption h2 {
-   margin-bottom: 10px;
+   margin-bottom: 5px;
 }
 
 figcaption p{
-   margin-bottom: 10px;
+   margin-bottom: 5px;
 }
