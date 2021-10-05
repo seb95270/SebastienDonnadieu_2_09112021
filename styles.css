@@ -106,7 +106,7 @@ table {
 
    Nav{
       display: flex;
-      margin-left: auto;
+      margin-left: 850px;
       padding: auto;
       font-weight: 500;
       border-top: 3px transparent solid;
@@ -159,15 +159,18 @@ table {
       background-color: #f2f2f2;
       padding: 1em 1.5em;
       border-radius: 1em 0 0 1em;
+      margin-right: -3px;
+      margin-top: 10px;
    }
 
    input{
       border-top: #f2f2f2 1px solid;
       border-bottom: #f2f2f2 1px solid;
       padding: 0 1.5em;
-      width: 140em;
+      width:  15em;
       font-size: 1em;
       font-family: "Raleway", sans-serif;
+      margin-top: 10px;
    }
 
    button{
@@ -177,6 +180,8 @@ table {
       border-radius: 0 1em 1em 0;
       padding: 0 1.5em;
       font-size: 1em;
+      margin-left: -3px;
+      margin-top: 10px;
    }
 
    /*fin formulaire type search */
@@ -213,6 +218,7 @@ table {
       border-radius: 40px;
       font-weight: bold;
       margin-right: 20px;
+      margin-left: 20px;
 }
 
 .filtre-content{
@@ -231,6 +237,7 @@ table {
 
 .filtres h1{
    margin-left: -50px;
+   margin-bottom: -87px;
 }
 
 /*fin section filtres */
@@ -272,45 +279,112 @@ margin-left: 1px;
    background-color: #dcdcdc;
    border: 1px solid transparent;
    border-radius: 20px;
-   width: 70%;
+   width: 60%;
    display: flex;
    justify-content: space-around;
-   flex-direction: row;
    flex-wrap: wrap;
 }
 
-#hosting div{
+.hosting{
+   background-color: #f2f2f2;
    border: 1px solid transparent;
    border-radius: 20px;
-   background-color: white;
-   width: 200px;
    height: 150px;
-   margin-top: 50px;
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   flex-wrap: wrap;
    }
 
-#hosting figcaption{
+.hosting figcaption{
    text-align: baseline;
-   font-size: 0.5em;
+   font-size: 0.6em;
    margin-left: 10px;
    margin-top: 10px;
    margin-bottom: 3px;
 }
 
-#hosting img{
+.hosting img{
    display: flex;
    align-items: center;
    vertical-align: top;
    border-radius: 20px 20px 0 0;
    width: 98%;
-   height: 90px;
-   margin-left: 1px;
+   height: 91px;
+   margin-left: 2px;
    margin-top: 1px;
 }
 
 figcaption h2 {
    margin-bottom: 5px;
+   margin-top: -3px;
 }
 
 figcaption p{
    margin-bottom: 5px;
 }
+
+#hosting h1{
+   text-align: start;
+}
+
+#hosting h3{
+   text-align: end;
+}
+
+#hosting div {
+   display: flex;
+   flex-direction: row;
+}
+
+/* section most popular */
+
+#most_popular{
+   background-color: #dcdcdc;
+   border: 1px solid transparent;
+   margin-top: 50px;
+   border-radius: 20px;
+   width: 30%;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#most_popular div{
+   background-color: #f2f2f2;
+   border: 1px solid transparent;
+   border-radius: 10px;
+   height: 90px;
+   width: 50%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+#most_popular img{   
+   object-fit: cover;
+   display: flex;
+   align-items: center;
+   border-radius: 10px 0 0 10px;
+   width: 40%;
+   height: 88px;
+   margin-left: 2px;
+   margin-top: 1px;
+   margin-bottom: 1px;
+}
+
+#most_popular figcaption{
+   font-size: 0.4em;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+/* section activités */
+
+#activités{
+   margin-top: 50px;
+}
+
